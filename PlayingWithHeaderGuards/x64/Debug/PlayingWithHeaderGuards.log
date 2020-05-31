@@ -1,5 +1,0 @@
-﻿  main.cpp
-  square.cpp
-  Generating Code...
-square.obj : error LNK2005: "int __cdecl getSquareSides(void)" (?getSquareSides@@YAHXZ) already defined in main.obj
-C:\Users\Aurimas\OneDrive\Coding\LearnCpp\x64\Debug\PlayingWithHeaderGuards.exe : fatal error LNK1169: one or more multiply defined symbols found

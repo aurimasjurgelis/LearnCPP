@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\Aurimas\OneDrive\Coding\LearnCpp\DataTypes\main.cpp(26,14): warning C4305: 'initializing': truncation from 'int' to 'bool'
-  DataTypes.vcxproj -> C:\Users\Aurimas\OneDrive\Coding\LearnCpp\x64\Debug\DataTypes.exe

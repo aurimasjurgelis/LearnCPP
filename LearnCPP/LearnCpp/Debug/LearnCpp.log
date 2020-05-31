@@ -1,0 +1,3 @@
+﻿  LearnCpp.cpp
+C:\Users\Aurimas\Desktop\Coding\LearnCpp\LearnCpp\LearnCpp.cpp(7,27): warning C4100: 'x': unreferenced formal parameter
+  LearnCpp.vcxproj -> C:\Users\Aurimas\Desktop\Coding\LearnCpp\Debug\LearnCpp.exe
