@@ -1,0 +1,4 @@
+﻿  2dvectors.cpp
+C:\Users\auris\Desktop\LearnCPP\AdvancedCPP\2DVectors\2dvectors.cpp(12,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\auris\Desktop\LearnCPP\AdvancedCPP\2DVectors\2dvectors.cpp(14,25): warning C4018: '<': signed/unsigned mismatch
+  2DVectors.vcxproj -> C:\Users\auris\Desktop\LearnCPP\AdvancedCPP\Debug\2DVectors.exe
