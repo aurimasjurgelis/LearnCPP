@@ -5,10 +5,10 @@
 using namespace std;
 
 class Test {
-
-public:
 	int id;
 	string name;
+
+public:
 
 	Test(int id, string name) :id(id), name(name) {
 
@@ -27,12 +27,21 @@ public:
 			return id < other.id;
 		}
 	}
-	
+
+	friend bool comp(const Test& a, const Test& b);
+
 };
 
 bool comp(const Test& a, const Test& b)
 {
-	return a.name < b.name;
+	if (a.id == b.id)
+	{
+		return a.name < b.name;
+	}
+	else
+	{
+		return a.id < b.id;
+	}
 }
 
 
@@ -46,8 +55,8 @@ int main()
 	tests.push_back(Test(3, "Vicky"));
 
 	
-	sort(tests.begin(), tests.end());
-	sort(tests.begin(), tests.end(), comp(tests.));
+	sort(tests.begin(), tests.end(), comp);
+	//sort(tests.begin(), tests.begin()+2, comp);
 
 
 	for (unsigned int i = 0; i < tests.size(); i++)

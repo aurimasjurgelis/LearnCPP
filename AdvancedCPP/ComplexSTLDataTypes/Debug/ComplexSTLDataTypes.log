@@ -1,0 +1,3 @@
+﻿  complexstldatatypes.cpp
+C:\Users\auris\Desktop\LearnCPP\AdvancedCPP\ComplexSTLDataTypes\complexstldatatypes.cpp(22,21): warning C4018: '<': signed/unsigned mismatch
+  ComplexSTLDataTypes.vcxproj -> C:\Users\auris\Desktop\LearnCPP\AdvancedCPP\Debug\ComplexSTLDataTypes.exe
